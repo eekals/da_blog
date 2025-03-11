@@ -1,7 +1,7 @@
 [
     {
-        "name": "[20240121]_[썸네일이 없는 테스트 파일]_[django]_[]_[이 파일은 테스트 파일입니다.]_[].md",
-        "download_url": "/blog/[20240121]_[썸네일이 없는 테스트 파일]_[django]_[]_[이 파일은 테스트 파일입니다.]_[].md"
+        "name": "[20250311]_[캡스톤디자인_1주차]_[python]_[a.jpg]_[깃허브 블로그 생성]_[].md",
+        "download_url": "/Blog/[20250311]_[캡스톤디자인_1주차]_[python]_[a.jpg]_[깃허브 블로그 생성]_[].md"
     },
     {
         "name": "[20240120]_[썸네일이 없는 테스트 파일]_[django]_[]_[이 파일은 테스트 파일입니다.]_[].md",
@@ -23,4 +23,5 @@
         "name": "[date]_[title]_[category]_[thumnail]_[description]_[author].md",
         "download_url": "/blog/[date]_[title]_[category]_[thumnail]_[description]_[author].md"
     }
+    [20250311]_[캡스톤디자인_1주차]_[python]_[a.jpg]_[이 파일은 테스트 파일입니다.]_[] .md
 ]
