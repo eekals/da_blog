@@ -57,9 +57,11 @@ const bloglistGridStyle=`grid grid-cols-5 gap-4`; // 5개의 열로 구성된 �
 const bloglistFirstCardStyle=`lg:col-span-5 md:col-span-5 col-span-5 h-auto rounded overflow-hidden bg-white transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 flex md:flex-row flex-col flex-1 md:mb-[20px] cursor-pointer`;
 const bloglistFirstCardImgStyle=`w-full object-cover object-center rounded-2xl overflow-hidden md:h-auto h-[200px] md:w-[49%] lg:w-[52%] shrink-0 mr-8`;
 const bloglistFirstCardDescriptionStyle=`text-graylv4 text-base font-normal leading-snug md:max-h-40 md:line-clamp-[7] line-clamp-3 mb-3`;
-const bloglistCardStyle=`h-[200px] w-[200px] flex items-center justify-center rounded overflow-hidden bg-white transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 cursor-pointer col-span-1`;
-const bloglistCardImgStyle=`w-full h-full object-cover object-center rounded-2xl overflow-hidden`;
+
+const bloglistCardStyle = `relative w-[200px] h-[200px] rounded overflow-hidden`;
+const bloglistCardImgStyle = `absolute inset-0 w-full h-full object-cover`;
 const bloglistCardBodyStyle=`py-4`;
+
 const bloglistCardTitleStyle=`font-bold text-2xl mb-3`;
 const bloglistCardCategoryStyle=`inline-block bg-activation text-primary md:text-sm font-medium mb-3 px-3 py-1.5 rounded-lg transition duration-200 ease-in-out hover:bg-blue-400 hover:text-white`;
 const bloglistCardDescriptionStyle=`text-graylv4 text-base font-normal leading-snug h-16 line-clamp-3 mb-3`;
