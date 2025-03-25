@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ohdamin's Webpage</title>
+
+  <!-- Google Fonts에서 Gmarket Sans 폰트 가져오기 -->
+  <link href="https://fonts.googleapis.com/css2?family=Gmarket+Sans:wght@500&display=swap" rel="stylesheet">
+
   <style>
     body {
       font-family: 'Gmarket Sans', sans-serif;
@@ -66,6 +70,20 @@
     input[type="submit"]:hover {
       background-color: #45a049;
     }
+
+    /* fieldset 스타일 수정 */
+    fieldset {
+      border: 2px solid #4CAF50;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 10px;
+    }
+
+    legend {
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #4CAF50;
+    }
   </style>
 </head>
 <body>
@@ -114,15 +132,22 @@
     <li>영화 감상</li>
   </ul>
 
-  <!-- 방문자가 메시지를 남길 수 있는 폼 -->
- <form action="#" method="POST">
+  <!-- 방문자 메시지 남기기 -->
+  <h2>방문자 메시지 남기기</h2>
+
+  <form action="#" method="POST">
     <fieldset>
       <legend>메시지 폼</legend>
       
-
-   </fieldset>
-</form>
+      <label for="name">이름</label>
+      <input type="text" id="name" name="name" placeholder="이름을 입력해주세요" required>
+      
+      <label for="message">메시지</label>
+      <textarea id="message" name="message" rows="4" placeholder="남기고 싶은 메시지를 작성해주세요" required></textarea>
+      
+      <input type="submit" value="메시지 보내기">
+    </fieldset>
+  </form>
 
 </body>
 </html>
-
