@@ -61,25 +61,26 @@ const bloglistFirstCardImgStyle = `w-full object-cover object-center rounded-2xl
 
 const bloglistFirstCardDescriptionStyle = `text-graylv4 text-base font-normal leading-snug md:max-h-40 md:line-clamp-[7] line-clamp-3 mb-3`;
 
-const bloglistCardStyle = `relative w-[200px] h-[200px] rounded overflow-hidden`;
+const bloglistCardStyle = `relative w-[200px] h-auto rounded overflow-hidden bg-white flex flex-col`; // 높이를 auto로 변경 & flex-col 추가
 
-const bloglistCardImgStyle = `absolute inset-0 w-full h-full object-cover`;
+const bloglistCardImgStyle = `w-full h-[200px] object-cover rounded-t-lg`; // absolute 제거하여 이미지가 정상 배치되도록 수정
 
-const bloglistCardBodyStyle = `py-4 flex flex-col`; // 세로 정렬 추가
+const bloglistCardBodyStyle = `p-4 flex flex-col`; // 패딩 추가 & flex-col 유지
 
-const bloglistCardTitleStyle = `font-bold text-2xl mb-3`; // truncate 제거하여 줄바꿈 허용
+const bloglistCardTitleStyle = `font-bold text-lg mb-2`; // 크기 조정 및 줄바꿈 가능하도록 수정
 
-const bloglistCardCategoryStyle = `inline-block bg-activation text-primary md:text-sm font-medium mb-3 px-3 py-1.5 rounded-lg transition duration-200 ease-in-out hover:bg-blue-400 hover:text-white`;
+const bloglistCardCategoryStyle = `inline-block bg-activation text-primary md:text-sm font-medium px-3 py-1 rounded-lg transition duration-200 ease-in-out hover:bg-blue-400 hover:text-white mb-2`;
 
-const bloglistCardDescriptionStyle = `text-graylv4 text-base font-normal leading-snug h-16 line-clamp-3 mb-3`;
+const bloglistCardDescriptionStyle = `text-graylv4 text-sm font-normal leading-snug line-clamp-3 mb-2`;
 
-const bloglistCardAuthorDivStyle = `inline-block`;
+const bloglistCardAuthorDivStyle = `flex items-center mt-auto`; // flex 추가하여 정렬
 
-const bloglistCardAuthorImgStyle = `inline w-8 h-8 rounded-full object-cover object-center mr-2 border border-graylv2 overflow-hidden`;
+const bloglistCardAuthorImgStyle = `w-8 h-8 rounded-full object-cover border border-graylv2 mr-2`;
 
-const bloglistCardAuthorStyle = `inline text-sm font-semibold text-black mr-2`;
+const bloglistCardAuthorStyle = `text-sm font-semibold text-black mr-2`;
 
-const bloglistCardDateStyle = `text-graylv3 text-sm font-normal`; // truncate 제거하여 날짜가 잘리지 않도록 처리
+const bloglistCardDateStyle = `text-graylv3 text-sm font-normal`; // 날짜가 잘리지 않도록 수정
+
 
 
 
