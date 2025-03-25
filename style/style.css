@@ -231,3 +231,7 @@
   mask-repeat: no-repeat;
   mask-position: center center;
 }/*# sourceMappingURL=style.css.map */
+
+html {
+  font-family: 'Gmarket Sans', sans-serif;
+}
