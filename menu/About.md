@@ -115,20 +115,13 @@
   </ul>
 
   <!-- 방문자가 메시지를 남길 수 있는 폼 -->
-  <h2>방문자 메시지 남기기</h2>
-  <form action="#" method="POST">
+ <form action="#" method="POST">
     <fieldset>
       <legend>메시지 폼</legend>
       
-      <label for="name">이름</label>
-      <input type="text" id="name" name="name" placeholder="이름을 입력해주세요">
-      
-      <label for="message">메시지</label>
-      <textarea id="message" name="message" rows="4" placeholder="남기고 싶은 메시지를 작성해주세요"></textarea>
-      
-      <input type="submit" value="메시지 보내기">
-    </fieldset>
-  </form>
+
+   </fieldset>
+</form>
 
 </body>
 </html>
