@@ -231,3 +231,19 @@
   mask-repeat: no-repeat;
   mask-position: center center;
 }/*# sourceMappingURL=style.css.map */
+
+
+/* About 이미지 부분 */
+.center-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* 이미지와 제목 간의 간격 */
+}
+
+.center-image img {
+  max-width: 100%;  /* 이미지 크기 제한 (너비가 너무 크면 화면을 넘어갈 수 있으므로) */
+  height: auto;     /* 비율 유지 */
+  border-radius: 50%; /* 원형 이미지로 설정 (선택사항) */
+  width: 150px; /* 원하는 크기로 설정 */
+}
