@@ -54,32 +54,24 @@ const notebookdownloadButtonStyle = `download-button px-5 py-[11px] mb-4 text-sm
 
 // bloglist 목록 스타일
 const bloglistGridStyle = `grid grid-cols-5 gap-4`; // 5개의 열로 구성된 그리드 레이아웃 설정
-
 const bloglistFirstCardStyle = `lg:col-span-5 md:col-span-5 col-span-5 h-auto rounded overflow-hidden bg-white transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 flex md:flex-row flex-col flex-1 md:mb-[20px] cursor-pointer`;
-
-const bloglistFirstCardImgStyle = `w-full object-cover object-center rounded-2xl overflow-hidden md:h-auto h-[200px] md:w-[49%] lg:w-[52%] shrink-0 mr-8`;
-
+const bloglistFirstCardImgStyle = `w-full object-cover object-center rounded-2xl overflow-hidden md:h-[200px] h-[200px] md:w-[49%] lg:w-[52%] shrink-0 mr-8`;
+// 이미지 크기를 고정하고, 가로 크기도 설정해주어 겹침을 방지합니다.
 const bloglistFirstCardDescriptionStyle = `text-graylv4 text-base font-normal leading-snug md:max-h-40 md:line-clamp-[7] line-clamp-3 mb-3`;
-
-const bloglistCardStyle = `relative w-[200px] h-auto rounded overflow-hidden bg-white flex flex-col`; // 높이를 auto로 변경 & flex-col 추가
-
-const bloglistCardImgStyle = `w-full h-[200px] object-cover rounded-t-lg`; // absolute 제거하여 이미지가 정상 배치되도록 수정
-
-const bloglistCardBodyStyle = `p-4 flex flex-col`; // 패딩 추가 & flex-col 유지
-
-const bloglistCardTitleStyle = `font-bold text-lg mb-2`; // 크기 조정 및 줄바꿈 가능하도록 수정
-
+const bloglistCardStyle = `relative w-[200px] h-auto rounded overflow-hidden bg-white flex flex-col`; 
+// 카드 안에서 flex를 사용하여 내용을 세로로 쌓고, 이미지는 위쪽에 배치합니다.
+const bloglistCardImgStyle = `w-full h-[200px] object-cover rounded-t-lg`; 
+// 이미지가 카드의 상단에 배치되도록 설정
+const bloglistCardBodyStyle = `p-4 flex flex-col`; 
+// 내용이 flexbox로 세로로 쌓이도록 설정합니다.
+const bloglistCardTitleStyle = `font-bold text-lg mb-2`; // 제목 크기 조정 및 줄바꿈 가능하도록 설정
 const bloglistCardCategoryStyle = `inline-block bg-activation text-primary md:text-sm font-medium px-3 py-1 rounded-lg transition duration-200 ease-in-out hover:bg-blue-400 hover:text-white mb-2`;
-
 const bloglistCardDescriptionStyle = `text-graylv4 text-sm font-normal leading-snug line-clamp-3 mb-2`;
-
-const bloglistCardAuthorDivStyle = `flex items-center mt-auto`; // flex 추가하여 정렬
-
+const bloglistCardAuthorDivStyle = `flex items-center mt-auto`; // author 정보를 flexbox로 정렬하여 하단에 배치
 const bloglistCardAuthorImgStyle = `w-8 h-8 rounded-full object-cover border border-graylv2 mr-2`;
-
 const bloglistCardAuthorStyle = `text-sm font-semibold text-black mr-2`;
+const bloglistCardDateStyle = `text-graylv3 text-sm font-normal mt-2`; // 날짜를 카드를 구성하는 요소들의 하단에 배치
 
-const bloglistCardDateStyle = `text-graylv3 text-sm font-normal`; // 날짜가 잘리지 않도록 수정
 
 
 
