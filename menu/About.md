@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>나만의 웹페이지</title>
+  <title>Ohdamin's Webpage</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Gmarket Sans', sans-serif;
       background-color: #f4f4f9;
       margin: 0;
       padding: 0;
@@ -85,8 +85,8 @@
       <td>Ohdamin</td>
     </tr>
     <tr>
-      <td>나이</td>
-      <td>25</td>
+      <td>직무</td>
+      <td>데이터 분석가</td>
     </tr>
     <tr>
       <td>관심사</td>
@@ -126,3 +126,4 @@
 
 </body>
 </html>
+
