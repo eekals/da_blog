@@ -53,7 +53,6 @@ const notebookcopyButtonStyle = `border border-lv2 copy-button bg-white rounded-
 const notebookdownloadButtonStyle = `download-button px-5 py-[11px] mb-4 text-sm font-medium text-white bg-primary rounded-[10px] hover:bg-primary`;
 
 // bloglist 목록 스타일
-// bloglist 목록 스타일
 const bloglistGridStyle = `grid grid-cols-5 gap-4`; // 5개의 열로 구성된 그리드 레이아웃 설정
 
 const bloglistFirstCardStyle = `lg:col-span-5 md:col-span-5 col-span-5 h-auto rounded overflow-hidden bg-white transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 flex md:flex-row flex-col flex-1 md:mb-[20px] cursor-pointer`;
@@ -71,10 +70,11 @@ const bloglistCardImgStyle = `w-full h-[200px] object-cover rounded-t-lg`;
 const bloglistCardBodyStyle = `p-4 flex flex-col flex-grow`; 
 // flex-grow 추가하여 제목, 카테고리, 날짜 등의 내용이 위에서부터 순차적으로 쌓이도록 설정
 
-const bloglistCardTitleStyle = `font-bold text-lg mb-2 line-clamp-2`; 
-// 제목의 길이를 제한하기 위해 line-clamp-2 추가 (2줄까지만 표시)
+const bloglistCardTitleStyle = `font-bold text-lg mb-2 text-right`; 
+// 제목을 오른쪽 정렬하기 위해 text-right 추가
 
-const bloglistCardCategoryStyle = `inline-flex items-center bg-activation text-primary md:text-sm font-medium px-2 py-1 rounded-lg transition duration-200 ease-in-out hover:bg-blue-400 hover:text-white mb-2`;
+const bloglistCardCategoryStyle = `inline-flex items-center bg-activation text-primary md:text-sm font-medium px-2 py-1 rounded-lg transition duration-200 ease-in-out hover:bg-blue-400 hover:text-white mb-2 max-w-max`; 
+// max-w-max로 카테고리 길이가 텍스트에 맞게 조정되도록 설정
 
 const bloglistCardDescriptionStyle = `text-graylv4 text-sm font-normal leading-snug line-clamp-3 mb-2`; 
 // description 부분에도 line-clamp를 사용하여 텍스트가 넘치지 않도록 처리
@@ -88,6 +88,7 @@ const bloglistCardAuthorStyle = `text-sm font-semibold text-black mr-2`;
 
 const bloglistCardDateStyle = `text-graylv3 text-sm font-normal mt-auto`; 
 // 날짜도 하단에 배치되고, 높이가 일관되게 유지되도록 설정
+
 
 
 
