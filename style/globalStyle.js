@@ -58,20 +58,19 @@ const bloglistFirstCardStyle = `lg:col-span-5 md:col-span-5 col-span-5 h-auto ro
 const bloglistFirstCardImgStyle = `w-full object-cover object-center rounded-2xl overflow-hidden md:h-[200px] h-[200px] md:w-[49%] lg:w-[52%] shrink-0 mr-8`;
 // 이미지 크기를 고정하고, 가로 크기도 설정해주어 겹침을 방지합니다.
 const bloglistFirstCardDescriptionStyle = `text-graylv4 text-base font-normal leading-snug md:max-h-40 md:line-clamp-[7] line-clamp-3 mb-3`;
-const bloglistCardStyle = `relative w-[200px] h-auto rounded overflow-hidden bg-white flex flex-col`; 
+const bloglistCardStyle = `relative w-[200px] h-[400px] rounded overflow-hidden bg-white flex flex-col`;  
 // 카드 안에서 flex를 사용하여 내용을 세로로 쌓고, 이미지는 위쪽에 배치합니다.
 const bloglistCardImgStyle = `w-full h-[200px] object-cover rounded-t-lg`; 
 // 이미지가 카드의 상단에 배치되도록 설정
 const bloglistCardBodyStyle = `p-4 flex flex-col`; 
 // 내용이 flexbox로 세로로 쌓이도록 설정합니다.
 const bloglistCardTitleStyle = `font-bold text-lg mb-2`; // 제목 크기 조정 및 줄바꿈 가능하도록 설정
-const bloglistCardCategoryStyle = `inline-block bg-activation text-primary md:text-sm font-medium px-3 py-1 rounded-lg transition duration-200 ease-in-out hover:bg-blue-400 hover:text-white mb-2`;
+const bloglistCardCategoryStyle = `inline-flex items-center bg-activation text-primary md:text-sm font-medium px-2 py-1 rounded-lg transition duration-200 ease-in-out hover:bg-blue-400 hover:text-white mb-2`;
 const bloglistCardDescriptionStyle = `text-graylv4 text-sm font-normal leading-snug line-clamp-3 mb-2`;
 const bloglistCardAuthorDivStyle = `flex items-center mt-auto`; // author 정보를 flexbox로 정렬하여 하단에 배치
 const bloglistCardAuthorImgStyle = `w-8 h-8 rounded-full object-cover border border-graylv2 mr-2`;
 const bloglistCardAuthorStyle = `text-sm font-semibold text-black mr-2`;
-const bloglistCardDateStyle = `text-graylv3 text-sm font-normal mt-2`; // 날짜를 카드를 구성하는 요소들의 하단에 배치
-
+const bloglistCardDateStyle = `text-graylv3 text-sm font-normal mt-auto`;
 
 
 
