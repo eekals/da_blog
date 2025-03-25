@@ -1,1 +1,1 @@
-[Blog](https://your-github-username.github.io/blog/)
+[Blog](https://eekals.github.io/da_blog/)
