@@ -70,8 +70,8 @@ const bloglistCardImgStyle = `w-full h-[200px] object-cover rounded-t-lg`;
 const bloglistCardBodyStyle = `p-4 flex flex-col flex-grow`; 
 // flex-grow 추가하여 제목, 카테고리, 날짜 등의 내용이 위에서부터 순차적으로 쌓이도록 설정
 
-const bloglistCardTitleStyle = `font-bold text-lg mb-2 text-right`; 
-// 제목을 오른쪽 정렬하기 위해 text-right 추가
+const bloglistCardTitleStyle = `font-bold text-lg mb-2 text-left`; 
+// 제목을 왼쪽 정렬하기 위해 text-left 추가
 
 const bloglistCardCategoryStyle = `inline-flex items-center bg-activation text-primary md:text-sm font-medium px-2 py-1 rounded-lg transition duration-200 ease-in-out hover:bg-blue-400 hover:text-white mb-2 max-w-max`; 
 // max-w-max로 카테고리 길이가 텍스트에 맞게 조정되도록 설정
