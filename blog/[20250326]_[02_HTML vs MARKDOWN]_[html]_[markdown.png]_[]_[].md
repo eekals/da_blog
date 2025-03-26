@@ -49,6 +49,7 @@ HTML은 웹페이지를 구성할 때, 즉, 웹사이트를 만들 때 사용한
   <figcaption>코랩 텍스트 문서는 markdown 형식</figcaption>
 </figure>
 
+
 ## 03_ Markdown 활용법
 
 Markdown은 코랩, GitHub 등 개발 플랫폼에서 자주 활용되므로 그 간단한 문법을 이해하는 것이 매우 유용하다. 요즘에는 Typora, Marktext와 같은 Markdown 편집기를 사용해 글을 쓰고, 이를 Markdown 형식으로 변환해주는 프로그램들도 많다. 또한, 노션 같은 플랫폼에서도 글을 쓰고 Markdown 형식으로 내보낼 수 있어, 이를 활용해보는 것도 좋은 방법이다.
