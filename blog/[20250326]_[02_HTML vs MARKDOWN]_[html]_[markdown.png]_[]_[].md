@@ -44,13 +44,13 @@ HTML은 웹페이지를 구성할 때, 즉, 웹사이트를 만들 때 사용한
 반면, Markdown은 주로 글을 작성할 때, 즉 웹의 콘텐츠를 작성할 때 사용된다. 주피터 노트북, 구글 코랩, 깃허브 등의 코드를 사용하는 플랫폼에서 주로 사용되며, 노션 같은 플랫폼에서도 Markdown 형식으로 글을 작성한다.
 
 
-![코랩 텍스트 문서는 markdown 형식](eekals/da_blog/img/코랩_마크다운.png)
+![코랩 텍스트 문서는 markdown 형식](img/코랩_마크다운.png)
 *코랩 텍스트 문서는 markdown 형식*
 
 ## 03_ Markdown 활용법
 
 Markdown은 코랩, GitHub 등 개발 플랫폼에서 자주 활용되므로 그 간단한 문법을 이해하는 것이 매우 유용하다. 요즘에는 Typora, Marktext와 같은 Markdown 편집기를 사용해 글을 쓰고, 이를 Markdown 형식으로 변환해주는 프로그램들도 많다. 또한, 노션 같은 플랫폼에서도 글을 쓰고 Markdown 형식으로 내보낼 수 있어, 이를 활용해보는 것도 좋은 방법이다.
 
-![노션 내보내기를 통해 글을 markdown으로 편집](eekals/da_blog/img/노션.png)
+![노션 내보내기를 통해 글을 markdown으로 편집](img/노션.png)
 *노션 내보내기를 통해 글을 markdown으로 편집*
 
