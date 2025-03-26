@@ -244,6 +244,6 @@
 .center-image img {
   max-width: 100%;  /* 이미지 크기 제한 (너비가 너무 크면 화면을 넘어갈 수 있으므로) */
   height: auto;     /* 비율 유지 */
-  border-radius: 50%; /* 원형 이미지로 설정 (선택사항) */
-  width: 150px; /* 원하는 크기로 설정 */
+  border-radius: 20%; /* 원형 이미지로 설정 (선택사항) */
+  width: 300px; /* 원하는 크기로 설정 */
 }
