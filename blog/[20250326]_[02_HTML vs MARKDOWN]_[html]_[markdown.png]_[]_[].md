@@ -56,6 +56,6 @@ Markdown은 코랩, GitHub 등 개발 플랫폼에서 자주 활용되므로 그
 
 <figure>
   <img src="eekals/da_blog/img/노션.png" width="300" />
-  <figcaption>노션 내보내기를 통해 글을 markdown으로 편집집</figcaption>
+  <figcaption>노션 내보내기를 통해 글을 markdown으로 편집</figcaption>
 </figure>
 
