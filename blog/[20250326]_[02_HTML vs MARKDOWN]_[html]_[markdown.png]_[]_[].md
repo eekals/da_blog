@@ -45,7 +45,7 @@ HTML은 웹페이지를 구성할 때, 즉, 웹사이트를 만들 때 사용한
 
 < 코랩 텍스트>
 
-![image.png](img/코랩_마크다운.png)
+![image.png](eekals/da_blog/img/코랩_마크다운.png)
 
 ## 03_ Markdown 활용법
 
