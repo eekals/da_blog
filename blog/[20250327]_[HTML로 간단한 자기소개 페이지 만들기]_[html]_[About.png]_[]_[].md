@@ -42,7 +42,7 @@ body 는  웹페이지에서 실제로 보여지는 공간이라고 할 수 있�
 
 위의 코드를 시행하면, 
 
-![image.png](user/icon.png)
+![image.png](img/user/icon.png)
 
 과 같이 제목과 아이콘이 나타난다.
 
@@ -106,4 +106,4 @@ body 부분에는
 
 최종적인 결과물은 다음과 같다.
 
-![image.png](About.png)
+![image.png](img/About.png)
